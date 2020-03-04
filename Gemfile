@@ -41,6 +41,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'popper_js', '~> 1.12.9'
 
 gem 'bootstrap', '~> 4.0.0'
+gem 'simple_form'
+gem 'font-awesome-rails'
+gem 'devise'
 
 source 'https://rails-assets.org' do
  gem 'rails-assets-tether', '>= 1.3.3'
