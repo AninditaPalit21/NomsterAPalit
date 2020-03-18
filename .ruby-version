@@ -1,1 +1,4 @@
-2.5.3
+2.6.5
+//= link_tree ../images
+//= link_directory ../javascripts .js
+//= link_directory ../stylesheets .css

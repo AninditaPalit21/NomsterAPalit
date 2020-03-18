@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.3'
+ruby '2.6.5'
 
 gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -41,7 +41,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'popper_js', '~> 1.12.9'
 
 gem 'bootstrap', '~> 4.0.0'
-gem 'simple_form'
+gem 'geocoder'
 gem 'font-awesome-rails'
 gem 'devise'
 
