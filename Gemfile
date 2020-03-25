@@ -42,6 +42,7 @@ gem 'popper_js', '~> 1.12.9'
 
 gem 'bootstrap', '~> 4.0.0'
 gem 'geocoder'
+gem "figaro"
 gem 'font-awesome-rails'
 gem 'devise'
 
