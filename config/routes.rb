@@ -1,4 +1,3 @@
-Learn more or give us feedback
 Rails.application.routes.draw do
   devise_for :users
   root 'places#index'
