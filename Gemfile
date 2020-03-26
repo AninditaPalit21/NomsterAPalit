@@ -41,7 +41,7 @@ gem 'carrierwave', '~> 1.0'
 gem 'fog-aws'
 gem 'popper_js', '~> 1.12.9'
 
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.1.3'
 gem 'geocoder'
 gem "figaro"
 gem 'font-awesome-rails'
