@@ -3,7 +3,7 @@ class PlacesController < ApplicationController
     
     
     def index
-      # @places = Place.all.paginate(page: params[:page], per_page: 10) <--gives error!!
+      @places = Place.all
         respond_to do |format|
             format.html
             format.json { render json: @places }

@@ -5,13 +5,13 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <%= image_tag 'slider1.jpg', class: 'd-block img-fluid' %>
+      
       <div class="carousel-caption d-none d-md-block">
         <h3>Best Football team</h3>
       </div>
     </div>
     <div class="carousel-item">
-      <%= image_tag 'slider2.jpg', class: 'd-block img-fluid' %>
+      
       <div class="carousel-caption d-none d-md-block" >
         <h3>SKOL SKOL SKOL</h3>
       </div>
@@ -46,7 +46,7 @@
       <small><%= place.user.email %></small>
     <% end %>
 <!-------->
-  <% if place.coments.present? %>
+  <% if place.comments.present? %>
     <div class="col-12 col-sm-6">
   <blockquote>
     <% if place.comments.last.humanized_rating.present? %>
@@ -59,3 +59,5 @@
 <% end %>
 <% end %>
   </div>
+
+  
