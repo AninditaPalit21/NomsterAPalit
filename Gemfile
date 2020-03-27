@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 2.0.2'
 gem 'fog-aws'
 gem 'popper_js', '~> 1.12.9'
 
@@ -46,7 +46,7 @@ gem 'geocoder'
 gem "figaro"
 gem 'font-awesome-rails'
 gem 'devise'
-
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 source 'https://rails-assets.org' do
  gem 'rails-assets-tether', '>= 1.3.3'
 end

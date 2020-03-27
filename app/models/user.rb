@@ -8,3 +8,4 @@ class User < ApplicationRecord
   has_many :comments
   has_many :photos
 end
+after_create { Notifier.welcome_email(self).deliver }
