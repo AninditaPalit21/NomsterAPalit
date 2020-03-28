@@ -5,6 +5,7 @@
       height: 100%;
       margin: 0;
       padding: 0;
+       background: #e694f7;
     }
     #map {
       height: 300%;
@@ -15,8 +16,8 @@
 }
  
 blockquote {
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
+    background: #f4eff5;
+    border-left: 10px solid rgb(36, 2, 2);
     margin: 1.5em 10 px;
     padding: .5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
@@ -35,3 +36,13 @@ blockquote p {
   display: inline;
 }
 
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  height: 550px;
+  width: 100%;
+}
+
+.carousel-item.active, 
+.carousel-item-next, 
+.carousel-item-prev {
+  display: block;
+}
