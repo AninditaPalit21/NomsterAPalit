@@ -20,9 +20,9 @@
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  background: rgb(14, 224, 196);
+  border: 1px solid rgb(26, 24, 24);
+  border-color: #1a1818 #1a1a18 #131312 #0c0b0b;
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-  color: rgb(7, 4, 5);
+  color: rgb(177, 9, 65);
   box-shadow: 0px 1px 3px #2a2a2a;
 }
 body {
@@ -42,14 +42,14 @@ body {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 .navbar-inverse .navbar-brand {
-  color: #144190;
+  color: #131518;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
   letter-spacing: -0.3px;
   margin-bottom: 0;
 }
 .nav-link {
-    color: blue;
+    color: rgb(3, 3, 19);
 }
 
 .invalid-feedback {
@@ -68,15 +68,15 @@ body {
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  background: #161010;
+  border-left: 10px solid rgb(85, 15, 15);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 
 blockquote:before {
-  color: #ccc;
+  color: rgb(32, 28, 28);
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -107,4 +107,15 @@ blockquote p {
 
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.95)
 }
